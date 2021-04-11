@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    /*    background-color: #AABBCC; */
+    background-color: #e3bbe3;
+    border: double white;
+    margin: 8px;
+/*    height: 98%; */
+}
+
+body {
+    background-color: #c19e9e;
+    border: solid black 4px;
+    margin: 16px;
+/*    height: 97%; */
+
+}
+
+/* DON'T specify width */
+#status {
+    border: solid red 1px;
+}
+
+#container {
+  border: solid 1px blue;
+  height: 60vh;
+    /*    position: relative;
+    height: 95%;
+      width: 50%;
+    background: white;
+*/
+}
+
+#control {
+/*
+    position: absolute;
+    top: 50px;
+    left: 60%;
+*/
+    border: solid 1px white;
+}
+
+#info {
+    border:solid red 1px;
+}
